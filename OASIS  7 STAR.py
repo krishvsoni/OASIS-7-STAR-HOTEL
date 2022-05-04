@@ -5,7 +5,7 @@ import tkinter.messagebox as tmsg
 hotel = Tk()
 hotel.title("OASIS 7 STAR ")
 hotel.geometry("780x650")
-hotel.wm_minsize(780,650)
+hotel.wm_maxsize(780,650)
 hotel.configure(bg='light green')
 
 def getvals():
